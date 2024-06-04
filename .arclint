@@ -1,0 +1,54 @@
+{
+  "exclude": [
+    "(^package-lock.json$)",
+    "(^.gitignore$)"
+  ],
+  "linters": {
+    "chmod": {
+      "type": "chmod"
+    },
+    "json": {
+      "type": "json",
+      "include": [
+        "(\\.arcconfig$)",
+        "(\\.arclint$)",
+        "(\\.arcunit$)",
+        "(\\.json$)"
+      ]
+    },
+    "merge-conflict": {
+      "type": "merge-conflict"
+    },
+    "nolint": {
+      "type": "nolint"
+    },
+    "spelling": {
+      "type": "spelling"
+    },
+    "text": {
+      "type": "text",
+      "exclude": [
+        "(\\.md$)"
+      ],
+      "text.max-line-length": 80,
+      "severity": {
+        "1": "advice",
+        "2": "advice",
+        "3": "advice",
+        "5": "disabled"
+      }
+    },
+    "text-no-linelength": {
+      "type": "text",
+      "include": [
+        "(\\.md$)"
+      ],
+      "severity": {
+        "1": "advice",
+        "2": "advice",
+        "3": "disabled",
+        "5": "disabled"
+      }
+    }
+  }
+}
