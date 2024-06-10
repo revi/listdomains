@@ -1,7 +1,7 @@
 {
   "exclude": [
-    "(^package-lock.json$)",
-    "(^.gitignore$)"
+    "(^node_modules/)",
+    "(^package-lock.json$)"
   ],
   "linters": {
     "chmod": {
@@ -10,9 +10,9 @@
     "json": {
       "type": "json",
       "include": [
-        "(\\.arcconfig$)",
-        "(\\.arclint$)",
-        "(\\.arcunit$)",
+        "(^\\.arcconfig$)",
+        "(^\\.arclint$)",
+        "(^\\.arcunit$)",
         "(\\.json$)"
       ]
     },
@@ -28,11 +28,12 @@
     "text": {
       "type": "text",
       "exclude": [
+        "(^.gitignore$)",
         "(\\.md$)"
       ],
       "text.max-line-length": 80,
       "severity": {
-        "1": "advice",
+        "1": "autofix",
         "2": "advice",
         "3": "advice",
         "5": "disabled"
@@ -41,10 +42,11 @@
     "text-no-linelength": {
       "type": "text",
       "include": [
+        "(^.gitignore$)",
         "(\\.md$)"
       ],
       "severity": {
-        "1": "advice",
+        "1": "autofix",
         "2": "advice",
         "3": "disabled",
         "5": "disabled"
