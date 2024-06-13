@@ -18,7 +18,9 @@ Anyways, all files outside `data` directory is licensed under Creative Commons A
 In certain jurisdictions (ie. South Korea), `database rights` are a thing;
 and to deal with those jurisdictions, [Open Database License (link to summary)](https://opendatacommons.org/licenses/odbl/summary/) is applied on `data` directory.
 
-```plaintext
+### License header
+
+```text
 <list-domains> (c) 2024 by Hong Yongmin
 
 <list-domains> is licensed under a
@@ -28,6 +30,9 @@ You should have received a copy of the license along with this
 work. If not, see <https://creativecommons.org/licenses/by-sa/3.0/>.
 ```
 
-```plaintext
-This `listdomains` is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+```text
+This `listdomains` is made available under the Open Database License:
+http://opendatacommons.org/licenses/odbl/1.0/.
+Any rights in individual contents of the database are licensed under the Database Contents License:
+http://opendatacommons.org/licenses/dbcl/1.0/
 ```

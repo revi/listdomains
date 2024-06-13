@@ -1,0 +1,9 @@
+*         text=auto
+
+*.md      diff=markdown
+*.sh      diff=bash
+
+# GitHub Linguist Support
+# https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
+.arclint  linguist-language=json
+.yamllint linguist-language=yaml
