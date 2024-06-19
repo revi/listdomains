@@ -14,7 +14,8 @@
         "(^\\.arclint$)",
         "(^\\.arcunit$)",
         "(\\.json$)"
-      ]
+      ],
+      "exclude": ["(^.vscode/*.json$)"]
     },
     "merge-conflict": {
       "type": "merge-conflict"

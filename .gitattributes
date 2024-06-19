@@ -5,5 +5,6 @@
 
 # GitHub Linguist Support
 # https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
-.arclint  linguist-language=json
-.yamllint linguist-language=yaml
+.arclint       linguist-language=json
+.vscode/*.json linguist-language=jsonc
+.yamllint      linguist-language=yaml

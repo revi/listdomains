@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "devDependencies": {
+    "@revi/prettier-config": "0.0.6",
+    "prettier": "3.3.2"
+  },
+  "scripts": {
+    "p:c": "prettier --check",
+    "p:w": "prettier --write"
+  },
+  "private": true
+}
